@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piatra Hartie Foarfeca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    
+    <div class="battle">
+        <div class="weapon_choice">
+            <div id="scorePlayer">0</div>
+            <h2>You chose</h2>
+            <img class="weapon_img" src="" height="100px" width="100px">
+        </div>
+        <div class="weapon_choice">
+            <div id="scoreComputer">0</div>
+            <h2>Computer chose</h2>
+            <img class="weapon_img2" src="" height="100px" width="100px">
+        </div>
+    </div>
+    <div id="result">Result</div>
+    <div class="weapons">
+        <h2>Choose your weapon</h2>
+        <div class="choices">
+            <button onclick="changeImage('rock')"><img class="choice_img" src="../Rock paper scrissors/rock.png" height="100px"
+                    width="100px"></button>
+            <button onclick="changeImage('paper')"><img src="../Rock paper scrissors/paper.png" alt="Paper" height="100px"
+                    width="100px"></button>
+            <button onclick="changeImage('scissors')"><img src="../Rock paper scrissors/scissors.png" alt="scissors" height="100px"
+                    width="100px"></button>
+        </div>
+    </div>
+    <script src="RPS.js"></script>
+</body>
+
+</html>

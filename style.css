@@ -1,0 +1,81 @@
+body
+{
+    background: rgb(31, 30, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+font-family: 'Courier New', Courier, monospace;
+color: aliceblue;
+}
+button
+{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    background: rgb(41, 37, 37) ;
+}   
+h2{
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+}
+.weapons
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+h3
+{
+    color: beige;
+}
+.weapon_choice
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.battle
+{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.weapon_img
+{
+    border: solid blue;
+    border-radius: 20px;
+    padding: 5px;
+}
+.weapon_img2
+{
+    border: solid rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 5px;
+}
+.score
+{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    
+}
+
+#scorePlayer, #scoreComputer 
+{
+    font-size: 50px;
+    color: antiquewhite;
+   
+}
+#result
+{
+    font-size: 30px;
+    color: aqua;
+}
+
